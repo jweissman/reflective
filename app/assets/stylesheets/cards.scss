@@ -1,0 +1,32 @@
+// Place all the styles related to the cards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Cabin|Gothic+A1:400,800&display=swap');
+
+.cards {
+    list-style: none;
+}
+
+.card {
+    font-family: 'Gothic A1', Arial, sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    border: 1px solid black;
+    color: black;
+
+    .card-header {
+        // color: white;
+        padding: 20px;
+        border-radius: 8px 8px 0 0;
+        font-weight: 800;
+        font-size: 7pt;
+        text-transform: uppercase;
+        margin-bottom: 120px;
+    }
+
+    .card-body {
+        padding: 20px;
+        min-height: 200px;
+    }
+}
